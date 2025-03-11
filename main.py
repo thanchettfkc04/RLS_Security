@@ -252,8 +252,6 @@ def assign_permissions(item_id, report):
     
 # Hàm gán quyền
 def assign_rls(item_id, report):
-    # item_id = '60f888d7-a8e3-475f-8191-52f604795182'
-    # report_server_url = "https://pbi.lpbank.com.vn/reports/api/v2.0"
     url = f"{report_server_url}/PowerBIReports({item_id})/Policies"
     url_get_all_rls = f"{report_server_url}/PowerBIReports({item_id})/DataModelRoles"
     url_get_member_rls = f"{report_server_url}/PowerBIReports({item_id})/DataModelRoleAssignments"
