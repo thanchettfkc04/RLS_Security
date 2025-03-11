@@ -1,0 +1,7 @@
+.venv/
+.venv
+build/
+dist/
+*.zip
+PBI.env
+rls_secure.spec
